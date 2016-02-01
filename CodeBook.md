@@ -1,4 +1,6 @@
-# Getting and Cleaning Data Course Project Code Book
+# Getting and Cleaning Data
+
+## Course Project Code Book
 
 ### Description of variable and observation transformation and dataset merger.
 
@@ -18,7 +20,7 @@ The data was then grouped by subject and activity, and the mean of each summary 
 
 Thus, the variable `mean.X.freq.BodyAccMag` would be renamed `meanof.mean.X.freq.BodyAccMag`.
 
-### List of variables and descriptions.
+### Variable names, types, and descriptions.
 
 | Variable Name                 | Type        | Description |
 | -------------                 | ----        | ----------- |
