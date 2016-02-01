@@ -20,73 +20,73 @@ Thus, the variable `mean.X.freq.BodyAccMag` would be renamed `meanof.mean.X.freq
 
 ### List of variables and descriptions.
 
-| Variable Name                 | Description |
-| -------------                 | ----------- |
-| subject                       |             |
-| activity                      |             |
-| mean.X.time.BodyAcc           |             |
-| mean.Y.time.BodyAcc           |             |
-| mean.Z.time.BodyAcc           |             |
-| std.X.time.BodyAcc            |             |
-| std.Y.time.BodyAcc            |             |
-| std.Z.time.BodyAcc            |             |
-| mean.X.time.GravityAcc        |             |
-| mean.Y.time.GravityAcc        |             |
-| mean.Z.time.GravityAcc        |             |
-| std.X.time.GravityAcc         |             |
-| std.Y.time.GravityAcc         |             |
-| std.Z.time.GravityAcc         |             |
-| mean.X.time.BodyAccJerk       |             |
-| mean.Y.time.BodyAccJerk       |             |
-| mean.Z.time.BodyAccJerk       |             |
-| std.X.time.BodyAccJerk        |             |
-| std.Y.time.BodyAccJerk        |             |
-| std.Z.time.BodyAccJerk        |             |
-| mean.X.time.BodyGyro          |             |
-| mean.Y.time.BodyGyro          |             |
-| mean.Z.time.BodyGyro          |             |
-| std.X.time.BodyGyro           |             |
-| std.Y.time.BodyGyro           |             |
-| std.Z.time.BodyGyro           |             |
-| mean.X.time.BodyGyroJerk      |             |
-| mean.Y.time.BodyGyroJerk      |             |
-| mean.Z.time.BodyGyroJerk      |             |
-| std.X.time.BodyGyroJerk       |             |
-| std.Y.time.BodyGyroJerk       |             |
-| std.Z.time.BodyGyroJerk       |             |
-| mean.time.BodyAccMag          |             |
-| std.time.BodyAccMag           |             |
-| mean.time.GravityAccMag       |             |
-| std.time.GravityAccMag        |             |
-| mean.time.BodyAccJerkMag      |             |
-| std.time.BodyAccJerkMag       |             |
-| mean.time.BodyGyroMag         |             |
-| std.time.BodyGyroMag          |             |
-| mean.time.BodyGyroJerkMag     |             |
-| std.time.BodyGyroJerkMag      |             |
-| mean.X.freq.BodyAcc           |             |
-| mean.Y.freq.BodyAcc           |             |
-| mean.Z.freq.BodyAcc           |             |
-| std.X.freq.BodyAcc            |             |
-| std.Y.freq.BodyAcc            |             |
-| std.Z.freq.BodyAcc            |             |
-| mean.X.freq.BodyAccJerk       |             |
-| mean.Y.freq.BodyAccJerk       |             |
-| mean.Z.freq.BodyAccJerk       |             |
-| std.X.freq.BodyAccJerk        |             |
-| std.Y.freq.BodyAccJerk        |             |
-| std.Z.freq.BodyAccJerk        |             |
-| mean.X.freq.BodyGyro          |             |
-| mean.Y.freq.BodyGyro          |             |
-| mean.Z.freq.BodyGyro          |             |
-| std.X.freq.BodyGyro           |             |
-| std.Y.freq.BodyGyro           |             |
-| std.Z.freq.BodyGyro           |             |
-| mean.freq.BodyAccMag          |             |
-| std.freq.BodyAccMag           |             |
-| mean.freq.BodyBodyAccJerkMag  |             |
-| std.freq.BodyBodyAccJerkMag   |             |
-| mean.freq.BodyBodyGyroMag     |             |
-| std.freq.BodyBodyGyroMag      |             |
-| mean.freq.BodyBodyGyroJerkMag |             |
-| std.freq.BodyBodyGyroJerkMag  |             |
+| Variable Name                 | Type        | Description |
+| -------------                 | ----        | ----------- |
+| subject                       | Categorical |             |
+| activity                      | Categorical |             |
+| mean.X.time.BodyAcc           | Continuous  |             |
+| mean.Y.time.BodyAcc           | Continuous  |             |
+| mean.Z.time.BodyAcc           | Continuous  |             |
+| std.X.time.BodyAcc            | Continuous  |             |
+| std.Y.time.BodyAcc            | Continuous  |             |
+| std.Z.time.BodyAcc            | Continuous  |             |
+| mean.X.time.GravityAcc        | Continuous  |             |
+| mean.Y.time.GravityAcc        | Continuous  |             |
+| mean.Z.time.GravityAcc        | Continuous  |             |
+| std.X.time.GravityAcc         | Continuous  |             |
+| std.Y.time.GravityAcc         | Continuous  |             |
+| std.Z.time.GravityAcc         | Continuous  |             |
+| mean.X.time.BodyAccJerk       | Continuous  |             |
+| mean.Y.time.BodyAccJerk       | Continuous  |             |
+| mean.Z.time.BodyAccJerk       | Continuous  |             |
+| std.X.time.BodyAccJerk        | Continuous  |             |
+| std.Y.time.BodyAccJerk        | Continuous  |             |
+| std.Z.time.BodyAccJerk        | Continuous  |             |
+| mean.X.time.BodyGyro          | Continuous  |             |
+| mean.Y.time.BodyGyro          | Continuous  |             |
+| mean.Z.time.BodyGyro          | Continuous  |             |
+| std.X.time.BodyGyro           | Continuous  |             |
+| std.Y.time.BodyGyro           | Continuous  |             |
+| std.Z.time.BodyGyro           | Continuous  |             |
+| mean.X.time.BodyGyroJerk      | Continuous  |             |
+| mean.Y.time.BodyGyroJerk      | Continuous  |             |
+| mean.Z.time.BodyGyroJerk      | Continuous  |             |
+| std.X.time.BodyGyroJerk       | Continuous  |             |
+| std.Y.time.BodyGyroJerk       | Continuous  |             |
+| std.Z.time.BodyGyroJerk       | Continuous  |             |
+| mean.time.BodyAccMag          | Continuous  |             |
+| std.time.BodyAccMag           | Continuous  |             |
+| mean.time.GravityAccMag       | Continuous  |             |
+| std.time.GravityAccMag        | Continuous  |             |
+| mean.time.BodyAccJerkMag      | Continuous  |             |
+| std.time.BodyAccJerkMag       | Continuous  |             |
+| mean.time.BodyGyroMag         | Continuous  |             |
+| std.time.BodyGyroMag          | Continuous  |             |
+| mean.time.BodyGyroJerkMag     | Continuous  |             |
+| std.time.BodyGyroJerkMag      | Continuous  |             |
+| mean.X.freq.BodyAcc           | Continuous  |             |
+| mean.Y.freq.BodyAcc           | Continuous  |             |
+| mean.Z.freq.BodyAcc           | Continuous  |             |
+| std.X.freq.BodyAcc            | Continuous  |             |
+| std.Y.freq.BodyAcc            | Continuous  |             |
+| std.Z.freq.BodyAcc            | Continuous  |             |
+| mean.X.freq.BodyAccJerk       | Continuous  |             |
+| mean.Y.freq.BodyAccJerk       | Continuous  |             |
+| mean.Z.freq.BodyAccJerk       | Continuous  |             |
+| std.X.freq.BodyAccJerk        | Continuous  |             |
+| std.Y.freq.BodyAccJerk        | Continuous  |             |
+| std.Z.freq.BodyAccJerk        | Continuous  |             |
+| mean.X.freq.BodyGyro          | Continuous  |             |
+| mean.Y.freq.BodyGyro          | Continuous  |             |
+| mean.Z.freq.BodyGyro          | Continuous  |             |
+| std.X.freq.BodyGyro           | Continuous  |             |
+| std.Y.freq.BodyGyro           | Continuous  |             |
+| std.Z.freq.BodyGyro           | Continuous  |             |
+| mean.freq.BodyAccMag          | Continuous  |             |
+| std.freq.BodyAccMag           | Continuous  |             |
+| mean.freq.BodyBodyAccJerkMag  | Continuous  |             |
+| std.freq.BodyBodyAccJerkMag   | Continuous  |             |
+| mean.freq.BodyBodyGyroMag     | Continuous  |             |
+| std.freq.BodyBodyGyroMag      | Continuous  |             |
+| mean.freq.BodyBodyGyroJerkMag | Continuous  |             |
+| std.freq.BodyBodyGyroJerkMag  | Continuous  |             |
