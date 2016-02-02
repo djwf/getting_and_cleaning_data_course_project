@@ -18,7 +18,7 @@ As an example, the variable containing the mean of the X-axis time-domain data p
 
 The data was then grouped by subject and activity, and the mean of each summary statistic on each measurement was taken.  To continue the example, the mean of all `mean.X.freq.BodyAcc` observations for subject `1` performing the activity `WALKING` was calculated and placed in the variable `meanof.mean.X.freq.BodyAcc` for the observation of subject `1` performing the activity `WALKING`.  The addition of the prefix `meanof.` indicates that the summary statistics used to summarize each measurement in the original dataset were again summarized.  Thus, all the instances of a variable for each combination of `subject` and `activity` would be summarized and placed in a variable named using the `meanof.[Summary statistic].[Axis].[Domain].[Measure Name]` pattern.
 
-### Variable names, types, and descriptions.
+### Variables, types, and descriptions.
 
 Note that the first two variables (`subject` and `activity`) are categorical, while the rest of the variables are continuous.
 
