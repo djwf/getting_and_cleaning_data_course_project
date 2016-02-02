@@ -15,4 +15,4 @@ This project contains the following files.
 | CodeBook.md    | Describe contents of the tidy dataset and all transformations to the data. |
 | tidy.csv       | Tidy dataset based on the original dataset.                                |
 
-Note that the run_analysis.R script will leave behind a `data` directory.  So please remove that directory if you do not want it to remain after creating the new dataset.
+Note that the run_analysis.R script will leave remove the `data` directory as configured by default.  If you want to retain the `data` directory, please set the `KEEP` variable at the top of the run_analysis.R script equal to `T`.
