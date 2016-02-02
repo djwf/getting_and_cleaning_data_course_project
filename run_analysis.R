@@ -16,13 +16,20 @@ dir.create(ddir, showWarnings = FALSE, recursive = TRUE)
 
 # Set the URL and local path of the data file.
 fileURL = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-zfile = 'UCI_HAR_Dataset.zip'
+fileURL = URLdecode(fileURL)
+zfile = basename(fileURL)
 zpath = file.path(ddir, zfile)
 unzpath = file.path(ddir, 'UCI HAR Dataset')
 
 # If the data file is not already on disk, then download the data file.
-if (!file.exists(zpath))
-  download.file(fileURL, destfile = zpath)
+if (file.exists(zfile)) {
+  file.copy(zfile, zpath)
+} else if (file.exists(paste('getdata-projectfiles-', zfile, sep=''))) {
+  file.copy(paste('getdata-projectfiles-', zfile, sep=''), zpath)
+} else if (!file.exists(zpath) & !file.exists(zfile)) {
+    download.file(fileURL, destfile = zpath)
+}
+
 # If the unzip path is not already created, then unzip the data file.
 if (!dir.exists(unzpath))
   unzip(zpath, exdir = ddir)
@@ -81,5 +88,7 @@ colnames(tidy) = sub('^(me|st)', 'meanof.\\1', colnames(tidy))
 
 write.table(tidy, 'tidy.csv', sep=',')
 
-if (!KEEP)
+if (!KEEP) {
   unlink(ddir, recursive = TRUE)
+  rm(list=ls()[ls() != 'tidy'])
+}
