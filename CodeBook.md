@@ -16,7 +16,7 @@ The train and test data from the original dataset were merged to create a single
 
 As an example, the variable containing the mean of the X-axis time-domain data produced by the body on the accelerometer was renamed from `tBodyAcc-mean()-X` to `mean.X.freq.BodyAcc`.
 
-The data was then grouped by subject and activity, and the mean of each summary statistic on each measurement was taken.  To continue the example, the mean of all `mean.X.freq.BodyAcc` observations for subject `1` performing the activity `WALKING` was calculated and placed in the variable `meanof.mean.X.freq.BodyAcc`.  The addition of the prefix `meanof.` indicates that the summary statistics used to summarize each measurement in the original dataset were again summarized.  Thus, all the instance of a variable for each combination of `subject` and `activity` would be summarized and placed in a variable named using the `meanof.[Summary statistic].[Axis].[Domain].[Measure Name]` pattern.
+The data was then grouped by subject and activity, and the mean of each summary statistic on each measurement was taken.  To continue the example, the mean of all `mean.X.freq.BodyAcc` observations for subject `1` performing the activity `WALKING` was calculated and placed in the variable `meanof.mean.X.freq.BodyAcc` for the observation of subject `1` performing the activity `WALKING`.  The addition of the prefix `meanof.` indicates that the summary statistics used to summarize each measurement in the original dataset were again summarized.  Thus, all the instances of a variable for each combination of `subject` and `activity` would be summarized and placed in a variable named using the `meanof.[Summary statistic].[Axis].[Domain].[Measure Name]` pattern.
 
 ### Variable names, types, and descriptions.
 
