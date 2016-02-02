@@ -2,7 +2,7 @@
 
 ## Course Project Code Book
 
-### Description of variable and observation transformation and dataset merger.
+### Variable and observation transformation and dataset merger
 
 The dataset provided herein is derived from a [wearable computing dataset][wcd] containing a variety of different measurements and summary measures of accelerometer data from a Samsung Galaxy S smartphone.  For the details of the original experiment, variable meanings, and variable names please refer to the `README.txt`, `features_info.txt`, and `features.txt` files (respectively) in the original dataset.
 
