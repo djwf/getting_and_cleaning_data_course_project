@@ -20,11 +20,17 @@ The data was then grouped by subject and activity, and the mean of each summary 
 
 ### Variables, types, and descriptions.
 
+#### Categorical variables
+
+| Variable Name | Description                                                                                                |
+| ------------- | -----------                                                                                                |
+| subject       | Unique ID of the subject (30 levels: 1 through 30)                                                         |
+| activity      | Activity measured (six levels: WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING) |
+
+#### Continuous variables
 
 | Variable Name                        | Summary Statistic  | Axis | Domain    | Component        | Description                              |
 | -------------                        | -----------------  | ---- | ------    | ---------        | -----------                              |
-| subject                              | N/A                | N/A  | N/A       | N/A              | Unique ID of the subject                 |
-| activity                             | N/A                | N/A  | N/A       | N/A              | Activity measured                        |
 | meanof.mean.X.time.BodyAcc           | Mean               | X    | Time      | Body             | Accelerometer readings                   |
 | meanof.mean.Y.time.BodyAcc           | Mean               | Y    | Time      | Body             | Accelerometer readings                   |
 | meanof.mean.Z.time.BodyAcc           | Mean               | Z    | Time      | Body             | Accelerometer readings                   |
