@@ -25,7 +25,7 @@ Note that the first two variables (`subject` and `activity`) are categorical, wh
 | Variable Name                        | Summary Statistic  | Axis | Domain    | Component        | Description                              |
 | -------------                        | -----------------  | ---- | ------    | ---------        | -----------                              |
 | subject                              | N/A                | N/A  | N/A       | N/A              | Unique ID of the subject                 |
-| activity                             | N/A                | N/A  | N/A       | N/a              | Activity measured                        |
+| activity                             | N/A                | N/A  | N/A       | N/A              | Activity measured                        |
 | meanof.mean.X.time.BodyAcc           | Mean               | X    | Time      | Body             | Accelerometer readings                   |
 | meanof.mean.Y.time.BodyAcc           | Mean               | Y    | Time      | Body             | Accelerometer readings                   |
 | meanof.mean.Z.time.BodyAcc           | Mean               | Z    | Time      | Body             | Accelerometer readings                   |
