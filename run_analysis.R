@@ -26,7 +26,7 @@ if (file.exists(zfile)) {
   file.copy(zfile, zpath)
 } else if (file.exists(paste('getdata-projectfiles-', zfile, sep=''))) {
   file.copy(paste('getdata-projectfiles-', zfile, sep=''), zpath)
-} else if (!file.exists(zpath) & !file.exists(zfile)) {
+} else if (!file.exists(zpath)) {
     download.file(fileURL, destfile = zpath)
 }
 
