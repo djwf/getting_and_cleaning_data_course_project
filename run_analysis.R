@@ -16,8 +16,8 @@ dir.create(ddir, showWarnings = FALSE, recursive = TRUE)
 
 # Set the URL and local path of the data file.
 fileURL = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-fileURL = URLdecode(fileURL)
-zfile = basename(fileURL)
+fileURLdecoded = URLdecode(fileURL)
+zfile = basename(fileURLdecoded)
 zpath = file.path(ddir, zfile)
 unzpath = file.path(ddir, 'UCI HAR Dataset')
 
