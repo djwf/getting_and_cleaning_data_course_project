@@ -21,7 +21,7 @@ The data was then grouped by subject and activity, and the mean of each summary 
 ### Variable names, types, and descriptions.
 
 | Variable Name                        | Type        | Summary Statistic  | Axis | Domain    | Component | Description                              |
-| -------------                        | ----        | -----------------  |      | ------    | --------- | -----------                              |
+| -------------                        | ----        | -----------------  | ---- | ------    | --------- | -----------                              |
 | subject                              | Categorical | N/A                | N/A  | N/A       | N/A       | Unique ID of the subject                 |
 | activity                             | Categorical | N/A                | N/A  | N/A       | N/a       | Activity measured                        |
 | meanof.mean.X.time.BodyAcc           | Continuous  | Mean               | X    | Time      | Body      | Accelerometer readings                   |
