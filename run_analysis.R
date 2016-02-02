@@ -86,7 +86,7 @@ colnames(all) = columns
 tidy = summarize_each(group_by(all, subject, activity), funs(mean))
 colnames(tidy) = sub('^(me|st)', 'meanof.\\1', colnames(tidy))
 
-write.table(tidy, 'tidy.csv', sep=',')
+write.table(tidy, 'tidy.csv', sep=',', row.names=F)
 
 if (!KEEP) {
   unlink(ddir, recursive = TRUE)
