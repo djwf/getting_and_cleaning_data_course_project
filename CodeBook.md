@@ -20,7 +20,6 @@ The data was then grouped by subject and activity, and the mean of each summary 
 
 ### Variables, types, and descriptions.
 
-Note that the first two variables (`subject` and `activity`) are categorical, while the rest of the variables are continuous.
 
 | Variable Name                        | Summary Statistic  | Axis | Domain    | Component        | Description                              |
 | -------------                        | -----------------  | ---- | ------    | ---------        | -----------                              |
